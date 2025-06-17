@@ -12,7 +12,9 @@ SLEEP_BIN="/usr/bin/sleep"
 SCREEN_SESSION_NAME="mc"
 
 echo "" # Add a blank line for better separation
-echo -e "\033[1;34m--- Minecraft Server Stop ---\033[0m" # Blue color, bold
+echo -e "\033[1;34m-------------------------------------------------\033[0m" 
+echo -e "\033[1;34m Minecraft Server Stop \033[0m" # Blue color, bold
+echo -e "\033[1;34m-------------------------------------------------\033[0m" 
 echo -e "\033[0;33mAttempting to stop Minecraft server...\033[0m" # Yellow color
 
 # Vérifier si la session screen existe
