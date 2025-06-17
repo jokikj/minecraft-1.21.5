@@ -18,7 +18,7 @@ cd minecraft-1.21.5
 ### 2️⃣ Make scripts executable
 
 ```bash
-chmod +x install_minecraft.sh start_minecraft.sh stop_minecraft.sh
+chmod +x install.sh start.sh stop.sh
 ```
 
 -----
