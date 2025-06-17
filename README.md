@@ -10,7 +10,7 @@ A Bash script to install and start a **Minecraft Java Edition 21 server** on **U
 
 ```bash
 git clone https://github.com/jokikj/minecraft-1.21.5.git
-cd minecraft-server
+cd minecraft-1.21.5
 ````
 
 -----
