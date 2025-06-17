@@ -29,6 +29,7 @@ if "$SCREEN_BIN" -list | "$GREP_BIN" -q "$SCREEN_SESSION_NAME"; then
         if ! "$SCREEN_BIN" -list | "$GREP_BIN" -q "$SCREEN_SESSION_NAME"; then
             echo -e "\033[1;32mMinecraft server stopped cleanly.\033[0m" # Green color, bold
             echo -e "\033[1;34m-------------------------------------------------\033[0m" # Blue line
+            echo ""
             exit 0
         fi
         "$SLEEP_BIN" 1
@@ -40,4 +41,5 @@ else
 fi
 
 echo -e "\033[1;34m-------------------------------------------------\033[0m" # Blue line
+echo ""
 exit 0
